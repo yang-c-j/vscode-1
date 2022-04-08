@@ -1,0 +1,21 @@
+1.面向对象
+优点：容易维护，扩展，有继承封装多态等思想，灵活
+缺点：性能比面向过程要低
+
+2.对象是类的实例化
+constructor 函数 可以接收参数 同时返回实例对象
+例如：
+
+class Person {
+    constructor(name.age){
+        this.name = name;
+        this.age = age;
+    }
+    say(){
+        log.nihaoa
+    }
+}
+
+let ldh = new Person('liudehua',19)
+
+3.super() 使得子类可以调用父类的constructor
